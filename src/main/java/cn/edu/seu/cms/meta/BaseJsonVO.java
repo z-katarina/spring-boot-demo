@@ -25,7 +25,7 @@ public class BaseJsonVO implements Serializable {
     public static BaseJsonVO newSuccess() {
         BaseJsonVO baseJsonVO = new BaseJsonVO();
         baseJsonVO.setCode(200);
-        baseJsonVO.setMessage("ok");
+        baseJsonVO.setMessage("OK");
         return baseJsonVO;
     }
 
